@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+body{
+  background-color: #fff8f3;;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -79,31 +82,63 @@ ul li a {
   width: 1200px;
   height: auto;
   transition: transform 0.4s ease;
-border-radius: 5px;
+  border-radius: 5px;
 }
-.hero-right img:hover{
-    transform: translatex(15px);
-    
+.hero-right img:hover {
+  transform: translatex(15px);
 }
-.about{
-    background-color: #fff8f3;
-    border-radius: 10px ;
-    margin: 80px auto;
-    padding: 40px;
-    padding-bottom: 80px;
-    text-align: center;
-    max-width: 900px;
+.about {
+  background-color: #fff2e8;
+  border-radius: 10px;
+  margin: 80px auto;
+  padding: 40px;
+  padding-bottom: 80px;
+  text-align: center;
+  max-width: 900px;
 }
-.about p{
-    margin:10px 0;
+.about p {
+  margin: 10px 0;
 }
-.about-box-parent{
-    display: flex;
-    justify-content: space-between;
-    gap: 8px;
+.about-box-parent {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
 }
-.about-box-parent .box{
-    background-color: #faf0e9;
-    padding: 8px;
-    border-radius: 8px;
+.about-box-parent .box {
+  background-color: #f8e9df;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.what-i-do-parent {
+  margin: 60px auto;
+  text-align: center;
+}
+.what-i-do-div p{
+  max-width: 700px;
+  margin: 15px auto 0;
+  line-height: 1.8;
+
+}
+.what-i-do-card-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+.what-i-do-card-container .what-i-do-card {
+  border: 2px solid #faf0e9;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: left;
+}
+.what-i-do-card-container .what-i-do-card h2 {
+  margin: 10px 0;
+}
+
+.what-i-do-card-container .what-i-do-card p {
+  color: #757575;
+  font-size: 15px;
 }
