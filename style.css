@@ -1,3 +1,109 @@
-nav{
-    background-color: aliceblue;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.common-btn {
+  background-color: #fd6e0a;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.outline-btn {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  cursor: pointer;
+}
+header {
+  background-color: #fff8f3;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px 0;
+}
+.logo {
+  font-weight: bold;
+  font-size: 32px;
+}
+.logo-a {
+  color: #fd6e0a;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.hero-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.hero-left-p-1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.hero-left h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+.hero-left-btn-parent {
+  margin-top: 12px;
+}
+.hero-right img {
+  width: 1200px;
+  height: auto;
+  transition: transform 0.4s ease;
+border-radius: 5px;
+}
+.hero-right img:hover{
+    transform: translatex(15px);
+    
+}
+.about{
+    background-color: #fff8f3;
+    border-radius: 10px ;
+    margin: 80px auto;
+    padding: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+    max-width: 900px;
+}
+.about p{
+    margin:10px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parent .box{
+    background-color: #faf0e9;
+    padding: 8px;
+    border-radius: 8px;
 }

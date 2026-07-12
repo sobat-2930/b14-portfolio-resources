@@ -1,21 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
     <header>
-        <nav>
-            <h2>Sobat</h2>
-            <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><button>Hire Me</button></li>
-            </ul>
-        </nav>
+      <nav>
+        <h2 class="logo">SOB<span class="logo-a">A</span>T</h2>
+        <ul>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blog</a></li>
+          <li><button class="common-btn">Hire Me</button></li>
+        </ul>
+      </nav>
     </header>
-</body>
+    <!--Hero section-->
+    <section class="hero-parent">
+      <!--left-->
+      <div class="hero-left">
+        <p class="hero-left-p-1">Hi,I am</p>
+        <h2>Sobat Binte Mannan</h2>
+        <p>
+          Passionate CSE student focused on becoming an AI-driven Full Stack Web
+          Developer. I enjoy building modern, responsive websites and
+          continuously improving my coding skills.
+        </p>
+        <div class="hero-left-btn-parent">
+          <button class="common-btn">Download CV</button>
+          <button class="outline-btn">Contact</button>
+        </div>
+      </div>
+
+      <!--right-->
+      <div class="hero-right">
+        <img src="./images/burqa.png1.png" alt="" />
+      </div>
+    </section>
+    <!--about me-->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science and Engineering (CSE) student with a strong passion for web development 
+            and continuous learning. I enjoy turning ideas into responsive, user-friendly websites
+             using modern web technologies. Every project I build helps me improve 
+             my problem-solving skills and gain practical experience.</p>
+             <div class="about-box-parent">
+                <div class="box">
+                    <p>Name:</p>
+                    <h2>Sobat Binte Mannan</h2>
+                </div>
+                <div class="box">
+                    <p>Email:</p>
+                    <h2>Sobat@gmail.com</h2>
+                </div>
+                <div class="box">
+                    <p>Date of Birth:</p>
+                    <h2>29 February,2004</h2>
+                </div>
+                <div class="box">
+                    <p>Phone:</p>
+                    <h2>01898765432</h2>
+                </div>
+             </div>
+    </section>
+  </body>
 </html>
