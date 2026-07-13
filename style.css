@@ -3,8 +3,8 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
-body{
-  background-color: #fff8f3;;
+body {
+  background-color: #fff8f3;
 }
 img {
   max-width: 100%;
@@ -32,7 +32,7 @@ img {
   cursor: pointer;
 }
 header {
-  background-color: #fff8f3;
+  background-color: #fff1e7;
 }
 nav {
   display: flex;
@@ -114,11 +114,10 @@ ul li a {
   margin: 60px auto;
   text-align: center;
 }
-.what-i-do-div p{
+.what-i-do-div p {
   max-width: 700px;
   margin: 15px auto 0;
   line-height: 1.8;
-
 }
 .what-i-do-card-container {
   margin-top: 20px;
@@ -128,11 +127,17 @@ ul li a {
   max-width: 900px;
   margin: 40px auto;
 }
+
 .what-i-do-card-container .what-i-do-card {
-  border: 2px solid #faf0e9;
+  border: 2px solid #c2bcb8;
   padding: 8px;
   border-radius: 10px;
   text-align: left;
+  transition: all 0.3s ease;
+}
+.what-i-do-card-container .what-i-do-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 .what-i-do-card-container .what-i-do-card h2 {
   margin: 10px 0;
@@ -141,4 +146,128 @@ ul li a {
 .what-i-do-card-container .what-i-do-card p {
   color: #757575;
   font-size: 15px;
+}
+/* Resume Section */
+
+.resume {
+  margin: 100px auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 60px;
+  padding: 0 30px;
+}
+
+.resume-column {
+  flex: 1;
+}
+
+.resume-column h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.resume-item {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: #f0eded;
+  transition: all 0.3s ease;
+}
+.resume-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  border-color: #6b6561;
+  cursor: pointer;
+}
+.resume-item h4 {
+  font-size: 24px;
+  color: #313131;
+  margin-bottom: 8px;
+}
+
+.resume-item h5 {
+  font-size: 18px;
+  color: #585656;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.resume-item p {
+  color: #3e3d3d;
+  line-height: 1.8;
+}
+
+.resume-column hr {
+  border: none;
+  border-top: 1px solid #d1d1d1;
+  margin: 30px 0;
+}
+
+.resume-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+/* My Latest Works */
+
+.latest-works {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.latest-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 15px;
+}
+
+.latest-subtitle {
+  max-width: 650px;
+  margin: 0 auto 50px;
+  color: #444343;
+  line-height: 1.8;
+}
+
+.works-container {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.work-card {
+  width: 500px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  text-decoration: none;
+  transition: all 0.35s ease;
+}
+
+.work-card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.work-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  border-color: #fd6e0a;
+}
+
+.work-card:hover img {
+  transform: scale(1.06);
 }
