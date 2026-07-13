@@ -241,13 +241,13 @@ ul li a {
 
 .works-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   gap: 35px;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .work-card {
-  width: 500px;
+  width: 600px;
   overflow: hidden;
   border-radius: 15px;
   border: 1px solid #e0e0e0;
