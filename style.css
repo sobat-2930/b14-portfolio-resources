@@ -288,7 +288,7 @@ ul li a {
 .item {
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 18px rgba(42, 42, 42, 0.15);
 }
 
 .item img {
@@ -303,10 +303,10 @@ ul li a {
   transform: scale(1.08);
 }
 .contact-section {
-  background: #f9f4f4;
+  background: #fff1e7;
   max-width: 1200px;
   margin: 80px auto 0;
-  padding: 80px;
+  padding: 40px 50px;
   display: flex;
   justify-content: space-between;
   gap: 80px;
@@ -322,14 +322,14 @@ ul li a {
 .contact-left h2,
 .contact-right h2 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .contact-left p {
   color: #757575;
   line-height: 1.8;
   max-width: 420px;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
 }
 
 .social-icons {
@@ -349,7 +349,7 @@ ul li a {
 .contact-right form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
 }
 
 .contact-right input,
@@ -364,7 +364,7 @@ ul li a {
 }
 
 .contact-right textarea {
-  height: 160px;
+  height: 90px;
   resize: none;
 }
 
